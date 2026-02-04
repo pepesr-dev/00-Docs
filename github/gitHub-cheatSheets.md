@@ -9,7 +9,19 @@ push
 origin
 main
 
-# Subir repositorio nuevo
+## Subir archivos
+
+
+# Previsualizar en markdown en vscode
+ctrl + shift + v
+
+
+## Subir repositorio nuevo
+![Subir repositorio local](./img/git.png);
+
+PNG: Capturas con texto.
+JPG: Imágenes.
+
 
 
 # Git Errores
