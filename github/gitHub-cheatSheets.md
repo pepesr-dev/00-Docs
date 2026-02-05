@@ -1,13 +1,11 @@
 # GitHub
 
-Concepto    |   Definición          | Codigo
-git         |   Llama a gitHub      |   git
-add
-"."
-commit
-push
-origin
-main
+| Comando | Acción | Propósito |
+| :--- | :--- | :--- |
+| `git add .` | **Preparar** | Marca los archivos nuevos o modificados. |
+| `git commit -m "msg"` | **Confirmar** | Crea un punto de control con un mensaje. |
+| `git push` | **Subir** | Envía los cambios locales a GitHub. |
+
 
 ## Subir archivos
 
