@@ -1,0 +1,16 @@
+/*
+    Estilo para ocultar secciones y destacar
+    boton activo
+    
+*/
+.section{
+    width: 100%;
+    background-color: aqua;
+}
+
+.section--hide{
+    display: none;
+}
+.active{
+    border: 1px solid blue;
+}

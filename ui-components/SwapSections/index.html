@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap Sections</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <nav class="nav">
+        <!--Vincular secciones y botones
+            Agrupar elementos
+            Identificar cada elemento por separado.
+            Ocultar por defecto las secciones que no se
+            mostraran al inicio.
+            Agregar la clase active al boton que estárá activado
+            al inicio.
+        -->
+        <!--Botones-->
+        <button class="nav__btn active" data-target="#s1" >Uno</button>
+        <button class="nav__btn" data-target="#s2" >Dos</button>
+        <button class="nav__btn" data-target="#s3" >Tres</button>
+        
+        
+    </nav>
+    <!--Secciones a intercambiar.-->
+    
+    <section class="section" id="s1">
+        <h1>s1</h1>
+    </section>
+    <section class="section section--hide " id="s2">
+        <h1>s2</h1>
+    </section>
+    <section class="section section--hide " id="s3">
+        <h1>s3</h1>
+    </section>
+    
+</body>
+</html>
