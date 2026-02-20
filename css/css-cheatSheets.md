@@ -1,5 +1,4 @@
 # HTML - Cheat Sheets
 | Elemento | Acción | Sintaxis |
 | :--- | :--- | :--- |
-| **Data-Target**| Vincula elementos| data-target="#idElemento" |
-
+| **Display:none**| Oculta elementos y el espacio que ocupa| `Display:none;` |

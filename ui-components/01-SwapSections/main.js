@@ -6,20 +6,20 @@
  */
 
 //Seleccionar botones y constantes
-const navBtns = document.querySelectorAll('.nav__btn');
-const sections = document.querySelectorAll('.section');
+const NAV_BTNS = document.querySelectorAll('.nav__btn');
+const SECTIONS = document.querySelectorAll('.section');
 
 
 //Cada botón ocultará todas las secciones y mostrará la correspondiente
-navBtns.forEach(btn => {
+NAV_BTNS.forEach(btn => {
     //Evento click
     btn.addEventListener('click', () =>{        
         
         //Oculta cada sección
-        sections.forEach(section => section.classList.add('section--hide'));
+        SECTIONS.forEach(section => section.classList.add('section--hide'));
         
         //Elimina la clase active
-        navBtns.forEach(btn => btn.classList.remove('active'));
+        NAV_BTNS.forEach(btn => btn.classList.remove('active'));
 
         //Selecciona el boton pulsado mediante
         // * dataset
