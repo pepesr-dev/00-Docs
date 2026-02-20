@@ -9,15 +9,13 @@
 </head>
 <body>
     <nav class="nav">
-        <!--Vincular secciones y botones
-            Agrupar elementos
-            Identificar cada elemento por separado.
-            Ocultar por defecto las secciones que no se
-            mostraran al inicio.
-            Agregar la clase active al boton que estárá activado
-            al inicio.
+        <!--
+            Swap sections
+            Oculta todas las clases menos la que 
+            corresponde al botón seleccionado.
         -->
         <!--Botones-->
+        <!--Data target, vincula los botones con las secciones-->
         <button class="nav__btn active" data-target="#s1" >Uno</button>
         <button class="nav__btn" data-target="#s2" >Dos</button>
         <button class="nav__btn" data-target="#s3" >Tres</button>
@@ -25,7 +23,7 @@
         
     </nav>
     <!--Secciones a intercambiar.-->
-    
+    <!--Secciones ocultas por defecto, expto la principal-->
     <section class="section" id="s1">
         <h1>s1</h1>
     </section>
