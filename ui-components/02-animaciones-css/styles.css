@@ -1,0 +1,18 @@
+.grafica{
+    /*gráficas verticales(por defecto 
+    son horizontales)*/
+    display: flex;
+    height: 200px;
+    /*barras apuntando hacia arriba 
+    (por defecto salen hacia abajo)*/
+    align-items: flex-end;
+}
+.barra{
+   
+    background-color: aqua;
+    border: 1px solid #000;
+    /*Tamaño de las barras*/
+    width: 20px;
+    height: 100px;
+    
+}
