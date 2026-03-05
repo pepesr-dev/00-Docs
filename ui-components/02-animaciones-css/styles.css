@@ -6,6 +6,10 @@
     /*barras apuntando hacia arriba 
     (por defecto salen hacia abajo)*/
     align-items: flex-end;
+     transition: transform 0.5s ease;
+}
+.mover-derecha {
+    animation: derecha 1s linear forwards; 
 }
 
 .barra {
@@ -32,6 +36,7 @@
 
     width: 200px;
     height: 200px;
+    animation: girar 2s linear infinite;
 }
 
 .sector {
@@ -69,4 +74,18 @@
 .cuatro {
     background-color: #f1c40f;
     clip-path: polygon(50% 50%, 0 50%, 0 0, 50% 0);
+}
+
+@keyframes girar {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+
+    }
+}
+@keyframes derecha {
+    to{
+        transform: translateX(100px);
+    }
 }
