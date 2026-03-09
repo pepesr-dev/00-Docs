@@ -1,3 +1,7 @@
+/*
+    GRAFICA DE BARRAS
+*/
+
 .grafica {
     /*gráficas verticales(por defecto 
     son horizontales)*/
@@ -89,3 +93,14 @@
         transform: translateX(100px);
     }
 }
+
+/*
+    CANVAS
+*/
+
+canvas{
+    width: 600px;
+    height: 400px;
+    border: 1px solid #000;
+}
+

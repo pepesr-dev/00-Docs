@@ -1,5 +1,9 @@
-# Lógica: Animaciones CSS
+# Lógica: Animaciones CSS / CANVAS / SVG
+Trabajo 3 tipos de animaciones web.
 
+1. CSS (Transformaciones, Transiciones, Animaciones (@Keyframes))
+2. CANVAS => js
+3. SVG => html
 
 
 
@@ -15,4 +19,4 @@
 - JS
 
 ## Trucos:
-**fdfsfg** Vincula elementos html.
+**canvas** Genera un lienzo para dibujar en el mediante JS.
