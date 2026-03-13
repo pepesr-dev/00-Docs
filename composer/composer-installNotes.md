@@ -17,7 +17,11 @@ Necesita instalar php y LAMP.
 # Configuración del proyecto
 
 1. Iniciar composer en la carpeta de mi proyecto.
-2. Configurar el composer.json.
-3. Crear src/Coche.php que contiene la primera clase.
+2. Configurar el composer.json. (reducir nombre del namespace)
+3. Crear src/ que contiene la primera clase.
 4. Registrar el namespace(autoloader).
 5. Crear el entry point/frontcontroler (index.php).
+
+
+## Carpetas
+src
